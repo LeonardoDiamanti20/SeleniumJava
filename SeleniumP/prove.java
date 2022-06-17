@@ -39,7 +39,7 @@ public class prove {
         Thread.sleep(2000);
         azione.dragAndDrop(I,D).build().perform();
         //azione.keyDown(Keys.CONTROL);
-
+        driver.findElement(By.id("GESù")).click();
 
 
 
